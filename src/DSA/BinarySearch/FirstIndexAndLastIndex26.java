@@ -1,4 +1,4 @@
-package DSA.Array;
+package DSA.BinarySearch;
 
 import java.util.Arrays;
 

@@ -1,4 +1,4 @@
-package DSA.Array;
+package DSA.BinarySearch;
 // Find Smallest Letter Greater Than Target;
 public class SmallestLetterByBInarySearch25 {
     public static void main(String[] args) {

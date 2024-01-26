@@ -1,4 +1,4 @@
-package DSA.Array;
+package DSA.BinarySearch;
 
 public class PeakIndexInMountainArray {
     public static void main(String[] args) {

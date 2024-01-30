@@ -20,6 +20,8 @@ public class SUMofIJK {
                          ans.add(arr[i]);
                          ans.add(arr[j]);
                          ans.add(arr[k]);
+
+
                     }
 
                 }

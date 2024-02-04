@@ -2,7 +2,8 @@ package DSA.Recursion;
 
 public class NumbersOfSteps {
     public static void main(String[] args) {
-        System.out.println(steps(2));
+        System.out.println(steps(2)
+        );
 
     }
 

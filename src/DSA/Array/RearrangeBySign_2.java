@@ -6,7 +6,7 @@ import java.util.Arrays;
 public class RearrangeBySign_2 {
     public static void main(String[] args) {
         int n = 4;
-        int arr[]= {1,2,-4,-5,-3,-2,-4,};
+        int arr[]= {9,4,-2,-1,5,0,-5,-3,2};
 
 
         int[]ans= RearrangebySign(arr,n);
@@ -32,11 +32,13 @@ public class RearrangeBySign_2 {
                 arr[2 * i + 1] = neg.get(i);
 
             }
-            int index =  neg.size();
+            int index =  neg.size() *2;
             for (int i = neg.size();i<pos.size();i++){
                 arr[index] = pos.get(i);
+                index++;
 
             }
+
 
         }
         else {
@@ -44,10 +46,13 @@ public class RearrangeBySign_2 {
                 arr[2 * i] = pos.get(i);
                 arr[2 * i + 1] = neg.get(i);
 
+
             }
-            int index =  pos.size();
+            int index =  pos.size() *2;
             for (int i = pos.size();i<neg.size();i++){
                 arr[index] = neg.get(i);
+                index++;
+
 
             }
 

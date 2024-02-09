@@ -15,7 +15,7 @@ public class ReturnArrayListWithoutArgument {
         if(arr.length==index){
             return  list;
         }
-        // this will contain answer for tha function call only
+        // this will contain answer for the function call only
         if(arr[index]==target){
             list.add(index);
         }

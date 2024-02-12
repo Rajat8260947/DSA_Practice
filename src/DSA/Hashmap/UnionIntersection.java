@@ -30,8 +30,10 @@ public class UnionIntersection {
         for (int i = 0; i <arr2.length ; i++) {
             if(hs.contains(arr2[i])){
                 count++;
+
                 hs.remove(arr2[i]);
             }
+
 
         }
      return  count;

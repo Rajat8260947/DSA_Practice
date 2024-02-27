@@ -79,7 +79,7 @@ public class LL {
            }
            return  node;
        }
-       public Node Find( int value){
+       public Node Find( int value){// doubt
         Node node = head;
           while (node.next!=null){
               if(node.value==value){

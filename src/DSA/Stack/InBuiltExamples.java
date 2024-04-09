@@ -13,6 +13,11 @@ public class InBuiltExamples {
         stack.push(19);
         stack.push(20);
 
+        System.out.println(stack);
+        System.out.println("Size is : " + stack.size());
+        System.out.println(stack.peek());
+
+        System.out.println(stack.isEmpty());
         System.out.println(stack.pop());
         System.out.println(stack.pop());
         System.out.println(stack.pop());

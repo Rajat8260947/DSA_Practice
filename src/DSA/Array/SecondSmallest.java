@@ -26,7 +26,7 @@ public class SecondSmallest {
                 Ssmallest = smallest;
                 smallest=arr[i];
             }
-            else if (arr[i]>smallest && arr[i]<Ssmallest){
+            else if (arr[i]!=smallest && arr[i]<Ssmallest){
                 Ssmallest=arr[i];
             }
         }

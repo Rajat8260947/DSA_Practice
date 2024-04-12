@@ -10,7 +10,7 @@ public class FibonacciNumberInGeneal {
         int n1=0;
         int n2=1;
 
-        for (int i = 0; i < n; i++) {
+        for (int i = 0; i <= n; i++) {
             System.out.print(n1 + " ");
             int n3= n1+n2;
             n1=n2;
@@ -18,6 +18,6 @@ public class FibonacciNumberInGeneal {
 
         }
 
-        System.out.println(n1);
+//        System.out.println(n1);
     }
 }

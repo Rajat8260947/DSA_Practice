@@ -2,10 +2,13 @@ package DSA.Recursion;
 
 public class CountZeros {
     public static void main(String[] args) {
-        System.out.println(count(30210004));
+
+        System.out.println(count(30210004)
+        );
     }
 
     static int count(int n) {
+
         return helper(n, 0);
     }
 

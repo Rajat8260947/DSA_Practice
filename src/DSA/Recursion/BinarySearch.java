@@ -4,7 +4,7 @@ public class BinarySearch {
     public static void main(String[] args) {
 
         int []arr = {2,3,5,6,7,8,9,13,45,67,89};
-        int target = 56;
+        int target = 54;
         int ans = BinarySearch(arr,target,0,arr.length-1);
         System.out.println("The target value index is " + ans);
     }
@@ -20,9 +20,9 @@ public class BinarySearch {
         }
 
         if(target>arr[mid]){
-            return  BinarySearch(arr,target,start+1,end);
+            return  BinarySearch(arr,target,mid+1,end);
         }
-        return   BinarySearch(arr,target,start,end-1);
+        return   BinarySearch(arr,target,start,mid-1);
 
     }
 }

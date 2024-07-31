@@ -2,6 +2,7 @@ package DSA.Recursion;
 
 public class Numbersexample {
     public static void main(String[] args) {
+
         num1(1);
     }
     static  void  num1 ( int num1){

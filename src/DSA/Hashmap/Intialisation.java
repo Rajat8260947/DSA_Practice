@@ -15,33 +15,33 @@ public class Intialisation {
         // get
 
         int population = hm .get("india");
-        String  popu= String.valueOf(hm.get("indonesia"));
-        System.out.println(popu);
+        String  popup= String.valueOf(hm.get("indonesia"));
+        System.out.println(popup);
         System.out.println(population);
-
-
-        //ContainsKey = O(1) // return Boolean;
+//
+//
+//        //ContainsKey = O(1) // return Boolean;
 
         System.out.println(hm.containsKey("india"));
         System.out.println(hm.containsKey("indonesia"));
 
-
-        // remove - O(1)
+//
+//        // remove - O(1)
         System.out.println(hm.remove("china"));
         System.out.println(hm);
-
-
-//        Size
-
-        System.out.println(hm.size());
-
-        // Is Empty
-        System.out.println(hm.isEmpty());
-
-
-        // clear
-        hm.clear();
-        System.out.println(hm.isEmpty());
+//
+//
+////        Size
+//
+//        System.out.println(hm.size());
+//
+//        // Is Empty
+//        System.out.println(hm.isEmpty());
+//
+//
+//        // clear
+//        hm.clear();
+//        System.out.println(hm.isEmpty());
     }
 
 }

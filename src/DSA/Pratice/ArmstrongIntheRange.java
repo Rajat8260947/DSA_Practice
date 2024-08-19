@@ -4,7 +4,7 @@ public class ArmstrongIntheRange {
     public static void main(String[] args) {
         int low =0,high=1000;
         System.out.println("Armstrong number are");
-        for (int i = low; i <high; i++) {
+        for (int i = low; i <=high; i++) {
             boolean result = armstrong(i);
             if(result==true) {
                 System.out.print( i + " ");

@@ -24,13 +24,13 @@ public class CountFrequencyOfElement {
 
         }
 
-        for (int i = 0; i <n ; i++) {
-            if(map.get(arr[i])!=-1){
+//        for (int i = 0; i <n ; i++) {
+//            if(map.get(arr[i])!=-1){
+//
+//                System.out.println(arr[i] + " " + map.get(arr[i]));
+//                map.put(arr[i],-1);
+//            }
 
-                System.out.println(arr[i] + " " + map.get(arr[i]));
-                map.put(arr[i],-1);
-            }
-
-        }
+//        }
     }
 }

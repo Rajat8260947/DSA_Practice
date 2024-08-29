@@ -1,4 +1,4 @@
-package DSA.Pratice;
+package DSA.Pratice.Number;
 
 public class AutoMorphic {
     public static void main(String[] args) {

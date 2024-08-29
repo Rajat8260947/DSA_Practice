@@ -3,12 +3,19 @@ import java.util.Arrays;
 public class Main {
     public static void main(String[] args){
          int N = 6, X = 10;
-       int  Arr[] = {1, 4, 45, 6, 10, 8};
-        System.out.println(hasArrayTwoCandidates(Arr,N,X));
+//       int  Arr[] = {1, 4, 45, 6, 10, 8};
+//        System.out.println(hasArrayTwoCandidates(Arr,N,X));
+         int j=8;
+        int i;
+        for (i=j; i <10 ; i++) {
+            System.out.println(i);
+
+        }
+
 
     }
 
-        static boolean hasArrayTwoCandidates(int arr[], int n, int x) {
+//        static boolean hasArrayTwoCandidates(int arr[], int n, int x) {
             // code here
 
 //            for(int i = 0;i<n;i++){
@@ -23,24 +30,24 @@ public class Main {
 //                }
 //            }
 //            return false;
-            Arrays.sort(arr);
-            int  j=n-1,i=0;
-            System.out.println(Arrays.toString(arr));
-               while(i<n){
-
-                if(arr[i]+arr[j]==x){
-                    return true;
-                }
-                else if(arr[i]+arr[j]<x){
-                    i++;
-                }
-                else{
-                    j--;
-                }
-
-            }
-            return false;
+//            Arrays.sort(arr);
+//            int  j=n-1,i=0;
+//            System.out.println(Arrays.toString(arr));
+//               while(i<n){
+//
+//                if(arr[i]+arr[j]==x){
+//                    return true;
+//                }
+//                else if(arr[i]+arr[j]<x){
+//                    i++;
+//                }
+//                else{
+//                    j--;
+//                }
+//
+//            }
+//            return false;
 
         }
-    }
+//    }
 

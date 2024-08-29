@@ -30,3 +30,27 @@ public class RepetedCharachter {
     }
 
 }
+//import java.util.HashMap;
+//        import java.util.Map;
+
+//public class RepeatedCharacters {
+//
+//    public static void main(String[] args) {
+//        String str = "hello world";
+//        printRepeatedCharacters(str);
+//    }
+//
+//    public static void printRepeatedCharacters(String str) {
+//        Map<Character, Integer> charFrequency = new HashMap<>();
+//
+//        for (char ch : str.toCharArray()) {
+//            charFrequency.put(ch, charFrequency.getOrDefault(ch, 0) + 1);
+//        }
+//
+//        for (Map.Entry<Character, Integer> entry : charFrequency.entrySet()) {
+//            if (entry.getValue() > 1) {
+//                System.out.println(entry.getKey());
+//            }
+//        }
+//    }
+//}

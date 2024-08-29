@@ -12,5 +12,7 @@ public class RemoveSpace {
         }
         System.out.println("String after removing spaces  : " + temp);
 
+//        or
+
     }
 }

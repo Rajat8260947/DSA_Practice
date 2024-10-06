@@ -65,6 +65,31 @@ import  java.util.*;
               }
          }
 
+
+//        HashMap<Integer,Integer> map = new HashMap<>();
+//        for (int i = 0; i < arr.length; i++) {
+//            if(map.containsKey(arr[i])){
+//                map.put(arr[i],map.get(arr[i])+1);
+//            }
+//            else {
+//                map.put(arr[i],1);
+//            }
+//
+//
+//        }
+//
+//        for(Map.Entry<Integer,Integer> entry : map.entrySet()){
+//               if(entry.getValue()>1){
+//                   System.out.print(entry.getKey());
+//               }
+//        }
+
+//        for(int it :map.keySet()){
+//            if(map.get(it)>1){
+//                System.out.println(it);
+//            }
+//        }
+
     }
 }
 
